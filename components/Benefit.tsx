@@ -1,5 +1,5 @@
 import React from "react";
-import OneIcon from "./common/icons/OneIcon";
+
 import Image from "next/image";
 
 function Benefit() {
@@ -7,7 +7,7 @@ function Benefit() {
     <div className="w-full">
       <div className="flex justify-center ">
         <h1 className="text-3xl font-bold">
-          Benefits of Joining Bluelearn<br></br> E-Learning
+        Why Bluelearn?
         </h1>
       </div>
       <div className="mx-10  mt-10 flex space-x-4">
