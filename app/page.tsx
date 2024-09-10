@@ -1,3 +1,4 @@
+import About from "@/components/About";
 import Benefit from "@/components/Benefit";
 import Footer from "@/components/common/Footer";
 import Nav from "@/components/common/Nav";
@@ -7,6 +8,7 @@ export default function Home() {
     <main className="block w-full min-h-screen">
       <Nav />
       <Benefit />
+      <About />
       <Footer/>
     </main>
   );
