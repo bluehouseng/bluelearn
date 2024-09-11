@@ -1,3 +1,55 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+.swiper {
+  width: fit-content;
+  height: 120px;
+  /* padding: 4px; */
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #fff;
+
+  /* Center slide text vertically */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+
+
+
+
+.steps-card {
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.steps-card-image {
+  transition: transform 0.3s ease;
+}
+
+.steps-card:hover .steps-card-image {
+  transform: scale(2.0);
+}
+img.non-clickable {
+  -webkit-user-drag: none;
+  user-drag: none;
+  pointer-events: none;
+}
+
+img.clickable {
+  pointer-events: auto; 
+}
