@@ -12,10 +12,10 @@ const Hero = (props: Props) => {
           <span className='absolute top-16 right-40'> <UnderlineElipse />  </span>
         </h1>
 
-        <p className='text-xl w-[90%]'> <span className='font-semibold'>1000+</span>  Courses covering all tech domains for you to learn and explore new oppurtunities. Learn from Industry Experts and land your Dream Job.</p>
+        <p className='text-xl w-[90%] text-gray-700'> <span className='font-semibold text-black'>1000+</span>  Courses covering all tech domains for you to learn and explore new oppurtunities. Learn from Industry Experts and land your Dream Job.</p>
 
         <div className="flex gap-6">
-          <button className='w-[200px] h-[60px] text-xl flex items-center justify-center bg-primary text-white rounded-md'>Start Trail</button>
+          <button className='w-[200px] h-[60px] text-xl flex items-center justify-center bg-primary text-white rounded-md'>Start Trial</button>
           <button className='w-[200px] h-[60px] text-xl  flex items-center justify-center text-primary border border-primary rounded-md'>How it Works</button>
 
         </div>
