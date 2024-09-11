@@ -5,8 +5,8 @@ type Props = {}
 
 const Hero = (props: Props) => {
   return (
-    <div className='container mx-auto px-10 flex gap-10 items-center '>
-      <div className="w-1/2 flex flex-col gap-8 py-32">
+    <div className='container mx-auto flex gap-10 items-center py-16'>
+      <div className="w-1/2 flex flex-col gap-6">
         <h1 className='relative text-[55px] font-bold leading-[75px]'>Learn a New Skill
           Everyday, Anytime, and Anywhere.
           <span className='absolute top-16 right-40'> <UnderlineElipse />  </span>
