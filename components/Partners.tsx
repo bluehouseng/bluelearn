@@ -22,7 +22,7 @@ const Partners = () => {
         className="w-full"
       >
         <SwiperSlide className=" ">
-          <div className="font-bold  h-full w-full text-2xl bg-microsoft bg-no-repeat bg-cover bg-center">
+          <div className="font-bold  h-full w-full text-2xl bg-microsoft bg-no-repeat bg-contain bg-center">
             {"   "}
           </div>
         </SwiperSlide>
