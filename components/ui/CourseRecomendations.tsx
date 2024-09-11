@@ -12,7 +12,7 @@ function CourseRecomendations() {
             <button className="mr-9   ">Categories</button>
           <div className="pt-7 relative right-8 " > <Arrowdown  /></div> 
           </div>
-          <button className="bg-[ #F0C932]">View All</button>
+          <button className="bg-[#F0C932] px-10 h-12 mt-2 ">View All</button>
         </div>
       </div>
       <div>
