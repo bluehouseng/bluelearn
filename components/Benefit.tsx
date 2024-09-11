@@ -6,14 +6,14 @@ function Benefit() {
   return (
     <div className="w-full">
       <div className="flex justify-center ">
-        <h1 className="text-4xl font-bold">Why Bluelearn?</h1>
+        <h1 className="text-2xl md:text-4xl font-semibold md:font-bold">Why Bluelearn?</h1>
       </div>
-      <div className="mx-10  mt-10 flex space-x-6 ">
-        <div className="w-1/3 bg-[#F4F6FC] p-16 steps-card">
+      <div className="mx-10 grid grid-cols-1 md:grid-cols-3  mt-6 gap-6 ">
+        <div className="bg-[#F4F6FC] p-16 steps-card flex flex-col">
           <Image src="/one.png" alt="" width={40} height={40} />
           <div className="">
             <h2 className="font-bold mt-4 ">Free Courses</h2>
-            <p className="text-xs mt-2">
+            <p className="mt-2 text-xs">
               We provide several free courses to support the availability of
               education for underprivileged communities.
             </p>
@@ -26,7 +26,7 @@ function Benefit() {
             height={50}
           />
         </div>
-        <div className="w-1/3 bg-[#F4F6FC] p-16 steps-card">
+        <div className="bg-[#F4F6FC] p-16 steps-card">
           <Image src="/two.png" alt="" width={40} height={40} />
           <div className="">
             <h2 className="font-bold mt-4 ">Access Forever</h2>
@@ -43,7 +43,7 @@ function Benefit() {
             height={50}
           />
         </div>
-        <div className="w-1/3 bg-[#F4F6FC] p-16 steps-card">
+        <div className="bg-[#F4F6FC] p-16 steps-card">
           <Image src="/three.png" alt="" width={40} height={40} />
           <div className="">
             <h2 className="font-bold mt-4 ">Mentoring Sessions</h2>
@@ -61,9 +61,7 @@ function Benefit() {
             height={50}
           />
         </div>
-      </div>
-      <div className="mx-10  mt-6 flex space-x-6 ">
-        <div className="w-1/3 bg-[#F4F6FC] p-16 steps-card">
+        <div className="bg-[#F4F6FC] p-16 steps-card">
           <Image src="/four.png" alt="" width={40} height={40} />
           <div className="">
             <h2 className="font-bold mt-4 ">Certificates and Portfolio</h2>
@@ -81,7 +79,7 @@ function Benefit() {
             height={50}
           />
         </div>
-        <div className="w-1/3 bg-[#F4F6FC] p-16 steps-card">
+        <div className="bg-[#F4F6FC] p-16 steps-card">
           <Image src="/five.png" alt="" width={40} height={40} />
           <div className="">
             <h2 className="font-bold mt-4 ">More Directed Learning</h2>
@@ -98,7 +96,7 @@ function Benefit() {
             height={50}
           />
         </div>
-        <div className="w-1/3 bg-[#F4F6FC] p-16 steps-card">
+        <div className="bg-[#F4F6FC] p-16 steps-card">
           <Image src="/six.png" alt="" width={40} height={40} />
           <div className="">
             <h2 className="font-bold mt-4 ">Experience Mentors</h2>
@@ -115,7 +113,8 @@ function Benefit() {
             width={50}
             height={50}
           />
-        </div>
+      </div>
+        
       </div>
     </div>
   );

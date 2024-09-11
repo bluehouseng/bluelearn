@@ -10,11 +10,11 @@ const monsterat = Montserrat({
 
 const Nav = () => {
   return (
-    <nav className="w-full bg-white h-[90px] flex items-center">
+    <nav className="w-full bg-white h-[60px] px-4 md:h-[90px] flex items-center">
       <div className="container mx-auto flex items-center justify-between">
         <div className="relative flex pr-4">
           <h2
-            className={`${monsterat.className} text-[28px] font-bold text-primary `}
+            className={`${monsterat.className} text-xl md:text-[28px] font-bold text-primary `}
           >
             Blulearn
           </h2>
@@ -23,7 +23,7 @@ const Nav = () => {
           </span>
         </div>
 
-        <div className="flex items-center gap-20">
+        <div className="hidden md:flex items-center gap-20">
           <ul className="flex text-primary gap-10 relative py-2">
             <li>HOME</li>
             <li>ABOUT US</li>

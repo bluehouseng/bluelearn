@@ -14,7 +14,7 @@ function BlogCard({ date, description, imageUrl, title }: Readonly<Props>) {
     return str.length > n ? str.slice(0, n - 1) + "..." : str;
   }
   return (
-    <div className="w-[402px]">
+    <div className="w-full">
       <Image src={imageUrl} alt={title} width={402} height={285} />
       <p className="text-lg font-medium mt-4 text-gray-500">{date}</p>
       <h3 className="text-xl font-medium text-wrap mt-4">{title}</h3>
