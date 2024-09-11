@@ -7,7 +7,7 @@ import "swiper/css";
 
 const Partners = () => {
   return (
-    <div className="bg-[#EEF4FA]  mb-10 flex w-full p-4">
+    <div className="bg-[#EEF4FA]   flex w-full p-4">
       <Swiper
         modules={[Autoplay]}
         slidesPerView={5}

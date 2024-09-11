@@ -4,7 +4,7 @@ import Image from "next/image";
 
 function About() {
   return (
-    <div className="flex justify-center items-center  h-screen">
+    <div className="flex justify-center items-center  h-screen bg-secondary mb-20">
       <div className="flex justify-center space-x-6 h-1/2">
         <div className="w-1/3 mt-36">
           <h2 className="text text-center">About us</h2>

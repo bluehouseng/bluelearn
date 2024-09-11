@@ -6,7 +6,7 @@ function Benefit() {
   return (
     <div className="w-full">
       <div className="flex justify-center ">
-        <h1 className="text-3xl font-bold">Why Bluelearn?</h1>
+        <h1 className="text-4xl font-bold">Why Bluelearn?</h1>
       </div>
       <div className="mx-10  mt-10 flex space-x-6 ">
         <div className="w-1/3 bg-[#F4F6FC] p-16 steps-card">
