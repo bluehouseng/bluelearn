@@ -6,7 +6,7 @@ const Hero = () => {
     <div className="  h-screen bg-laptop_boy bg-cover bg-no-repeat relative">
       <div className="flex items-center px-20  py-16 absolute top-0 left-0 w-full h-full bg-gradient-to-r from-black to-cyan-200/10">
         <div className="w-1/2 flex flex-col gap-6">
-          <h1 className="relative text-[55px] font-bold leading-[75px] text-white bg-primary/20 text-center rounded-lg">
+          <h1 className="relative text-5xl font-bold leading-[75px] text-white bg-primary/20 text-center rounded-lg">
             Helping Africans Upskill and Land Remote Jobs in Europe.
             <span className="absolute top-16 right-40">
               {" "}
@@ -24,7 +24,6 @@ const Hero = () => {
             <button className=" p-4 px-8 text-xl flex items-center justify-center bg-primary text-white rounded-md hover:bg-secondary font-bold border-none">
               Apply Now
             </button>
-           
           </div>
         </div>
       </div>
