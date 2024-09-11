@@ -5,10 +5,10 @@ import CustomCard from "./CustomCard";
 function CourseRecomendations() {
   return (
     <div className="ml-5 p-16">
-      <div className="flex justify-between pb-14  ">
-        <p className="w-[350px] text-2xl font-bold text-[#282938]">Course Recommendations For You</p>
+      <div className="flex justify-between pb-14 pr-5  ">
+        <p className="w-[350px] text-2xl font-semibold text-[#282938]">Course Recommendations For You</p>
         <div className="flex">
-          <div className="flex">
+          <div className="flex ">
             <button className="mr-9   ">Categories</button>
           <div className="pt-7 relative right-8 " > <Arrowdown  /></div> 
           </div>
