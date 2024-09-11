@@ -1,8 +1,8 @@
 import React from 'react'
 
-type Props = {}
 
-const Icon = (props: Props) => {
+
+const Icon = () => {
   return (
     <div>Icon</div>
   )

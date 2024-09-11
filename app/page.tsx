@@ -12,8 +12,8 @@ export default function Home() {
       <Nav />
       <Hero />
       <Partners />
-      <Benefit />
       <About />
+      <Benefit />
       <Blog/>
       <Footer/>
     </main>
