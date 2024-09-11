@@ -4,7 +4,7 @@ import React from "react";
 function About() {
   return (
    
-    <div className="flex justify-center items-center h-screen bg-gradient-to-t from-[#2E3192] to-[ #1BFFFF]  mb-20">
+    <div className="flex justify-center items-center h-screen bg-gradient-to-t from-[#FBB03B] to-[ #DECBA4] bg-secondary mb-20">
   <div className="flex justify-center space-x-6 h-1/2">
     <div className="w-1/3 mt-16">
       <h2 className="text text-center text-white">About us</h2>

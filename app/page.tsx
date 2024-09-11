@@ -5,6 +5,7 @@ import Footer from "@/components/common/Footer";
 import Nav from "@/components/common/Nav";
 import CourseRecomendations from "@/components/ui/CourseRecomendations";
 import Hero from "@/components/Hero";
+import Mentors from "@/components/Mentors";
 import Partners from "@/components/Partners";
 
 export default function Home() {
@@ -16,6 +17,7 @@ export default function Home() {
       <About />
       <CourseRecomendations />
       <Benefit />
+      <Mentors />
       <Blog/>
       <Footer/>
     </main>
