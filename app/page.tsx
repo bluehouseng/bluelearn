@@ -3,6 +3,7 @@ import Benefit from "@/components/Benefit";
 import Blog from "@/components/Blog";
 import Footer from "@/components/common/Footer";
 import Nav from "@/components/common/Nav";
+import CourseRecomendations from "@/components/ui/CourseRecomendations";
 import Hero from "@/components/Hero";
 import Mentors from "@/components/Mentors";
 import Partners from "@/components/Partners";
@@ -14,6 +15,7 @@ export default function Home() {
       <Hero />
       <Partners />
       <About />
+      <CourseRecomendations />
       <Benefit />
       <Mentors />
       <Blog/>
