@@ -5,8 +5,9 @@ import Footer from "@/components/common/Footer";
 import Nav from "@/components/common/Nav";
 import CourseRecomendations from "@/components/ui/CourseRecomendations";
 import Hero from "@/components/Hero";
-import Mentors from "@/components/Mentors";
+import Mentors from "@/components/Instructors";
 import Partners from "@/components/Partners";
+import Instructors from "@/components/Instructors";
 
 export default function Home() {
   return (
@@ -15,9 +16,9 @@ export default function Home() {
       <Hero />
       <Partners />
       <About />
-      <CourseRecomendations />
+      {/* <CourseRecomendations /> */}
       <Benefit />
-      <Mentors />
+      <Instructors />
       <Blog/>
       <Footer/>
     </main>
