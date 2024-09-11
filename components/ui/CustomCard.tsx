@@ -1,6 +1,12 @@
 import React from 'react'
 
-const CustomCard = ({ title, description, imageUrl }) => {
+type Props = {
+  title: string,
+  description: string,
+  imageUrl: string
+}
+
+const CustomCard = ({ title, description, imageUrl }: Props) => {
     return (
       <div className="max-w-sm rounded overflow-hidden shadow-lg bg-gray">
         {imageUrl && (

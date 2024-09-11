@@ -11,10 +11,10 @@ export default function Home() {
   return (
     <main className="w-full min-h-screen">
       <Nav />
-      <CourseRecomendations />
       <Hero />
       <Partners />
       <About />
+      <CourseRecomendations />
       <Benefit />
       <Blog/>
       <Footer/>
