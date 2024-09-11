@@ -1,8 +1,8 @@
 import React from "react";
 
-type Props = {};
 
-const OneIcon = (props: Props) => {
+
+const OneIcon = () => {
   return (
     <svg
       width="40"

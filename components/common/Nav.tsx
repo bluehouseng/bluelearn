@@ -1,16 +1,15 @@
-import { Montserrat, Share } from 'next/font/google'
+import { Montserrat } from 'next/font/google'
 import React from 'react'
 import ElipseIcon from './icons/ElipseIcon'
 import YellowElipse from './icons/YellowElipse'
 import ShareIcon from './icons/ShareIcon'
 
-type Props = {}
 
 const monsterat = Montserrat({
     subsets: ['latin']
 })
 
-const Nav = (props: Props) => {
+const Nav = () => {
     return (
         <nav className='w-full bg-white h-[90px] flex items-center'>
             <div className="container mx-auto flex items-center justify-between">
