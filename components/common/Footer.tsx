@@ -2,13 +2,12 @@ import { Montserrat } from "next/font/google";
 import React from "react";
 import ElipseIcon from "./icons/ElipseIcon";
 
-type Props = {};
 const monsterat = Montserrat({
   subsets: ["latin"],
 });
-function Footer(prop: Props) {
+function Footer() {
   return (
-    <footer>
+    <footer className="pt-[13%]">
       <section className="bg-primary w-full pt-12">
         <div className="container mx-auto flex justify-between min-h-[340px] sm:w-full flex-col sm:flex-row">
           <aside className="flex flex-col justify-between w-full sm:w-1/2">

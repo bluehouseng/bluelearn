@@ -1,5 +1,6 @@
 import About from "@/components/About";
 import Benefit from "@/components/Benefit";
+import Blog from "@/components/Blog";
 import Footer from "@/components/common/Footer";
 import Nav from "@/components/common/Nav";
 
@@ -9,6 +10,7 @@ export default function Home() {
       <Nav />
       <Benefit />
       <About />
+      <Blog/>
       <Footer/>
     </main>
   );
