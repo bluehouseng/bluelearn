@@ -5,7 +5,7 @@ import CustomCard from "./CustomCard";
 function CourseRecomendations() {
   return (
     <div className="ml-5 p-16">
-      <div className="flex justify-between pb-14 pr-5  ">
+      <div className="flex justify-between pb-4 pr-5 border-b-2  ">
         <p className="w-[350px] text-2xl font-semibold text-[#282938]">Course Recommendations For You</p>
         <div className="flex">
           <div className="flex ">
@@ -16,7 +16,7 @@ function CourseRecomendations() {
         </div>
       </div>
       <div>
-        <div className="w-full grid grid-cols-3 ">
+        <div className="w-full grid grid-cols-3 pt-11 ">
           <CustomCard
             imageUrl={"/customCardsvg/unsplash_m_HRfLhgABo.svg"}
             title={"Basic WEB Programming"}
