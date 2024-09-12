@@ -1,5 +1,3 @@
-
-
 // "use client";
 // import React, { useState, useEffect } from "react";
 // import { Swiper, SwiperSlide } from "swiper/react";
@@ -32,11 +30,11 @@
 //           clickable: true,
 //         }}
 //         modules={[Mousewheel, Pagination]}
-//         className="h-screen p-32" 
+//         className="h-screen p-32"
 //       >
 //         <SwiperSlide className="flex items-center justify-center w-full h-full  ">
 //           <video
-//             className=" object-cover" 
+//             className=" object-cover"
 //             controls
 //           >
 //             <source src="/video.mp4" type="video/mp4" />
@@ -45,7 +43,7 @@
 
 //         <SwiperSlide className="flex items-center justify-cente">
 //         <video
-//             className=" object-cover" 
+//             className=" object-cover"
 //             controls
 //           >
 //             <source src="/video.mp4" type="video/mp4" />
@@ -53,7 +51,7 @@
 //         </SwiperSlide>
 //         <SwiperSlide className="flex items-center justify-center">
 //         <video
-//             className=" object-cover" 
+//             className=" object-cover"
 //             controls
 //           >
 //             <source src="/video.mp4" type="video/mp4" />
@@ -61,7 +59,7 @@
 //         </SwiperSlide>
 //         <SwiperSlide className="flex items-center justify-center">
 //         <video
-//             className=" object-cover" 
+//             className=" object-cover"
 //             controls
 //           >
 //             <source src="/video.mp4" type="video/mp4" />
@@ -69,7 +67,7 @@
 //         </SwiperSlide>
 //         <SwiperSlide className="flex items-center justify-center">
 //         <video
-//             className=" object-cover" 
+//             className=" object-cover"
 //             controls
 //           >
 //             <source src="/video.mp4" type="video/mp4" />
@@ -77,7 +75,7 @@
 //         </SwiperSlide>
 //         <SwiperSlide className="flex items-center justify-center">
 //         <video
-//             className=" object-cover" 
+//             className=" object-cover"
 //             controls
 //           >
 //             <source src="/video.mp4" type="video/mp4" />
@@ -85,7 +83,7 @@
 //         </SwiperSlide>
 //         <SwiperSlide className="flex items-center justify-center">
 //         <video
-//             className=" object-cover" 
+//             className=" object-cover"
 //             controls
 //           >
 //             <source src="/video.mp4" type="video/mp4" />
@@ -93,7 +91,7 @@
 //         </SwiperSlide>
 //         <SwiperSlide className="flex items-center justify-center">
 //         <video
-//             className=" object-cover" 
+//             className=" object-cover"
 //             controls
 //           >
 //             <source src="/video.mp4" type="video/mp4" />
@@ -101,7 +99,7 @@
 //         </SwiperSlide>
 //         <SwiperSlide className="flex items-center justify-center">
 //         <video
-//             className=" object-cover " 
+//             className=" object-cover "
 //             controls
 //           >
 //             <source src="/video.mp4" type="video/mp4" />
@@ -146,11 +144,11 @@
 //           clickable: true,
 //         }}
 //         modules={[Mousewheel, Pagination]}
-//         className="w-full h-full" 
+//         className="w-full h-full"
 //       >
 //         <SwiperSlide className="flex items-center justify-center w-full h-full">
 //           <video
-//             className="w-full h-full  object-cover" 
+//             className="w-full h-full  object-cover"
 //             controls
 //           >
 //             <source src="/video.mp4" type="video/mp4" />
@@ -159,7 +157,7 @@
 
 //         <SwiperSlide className="flex items-center justify-center w-full h-full">
 //           <video
-//             className="w-full h-full object-cover" 
+//             className="w-full h-full object-cover"
 //             controls
 //           >
 //             <source src="/video.mp4" type="video/mp4" />
@@ -168,7 +166,7 @@
 
 //         <SwiperSlide className="flex items-center justify-center w-full h-full">
 //           <video
-//             className="w-full h-full object-cover" 
+//             className="w-full h-full object-cover"
 //             controls
 //           >
 //             <source src="/video.mp4" type="video/mp4" />
@@ -177,7 +175,7 @@
 
 //         <SwiperSlide className="flex items-center justify-center w-full h-full">
 //           <video
-//             className="w-full h-full object-cover" 
+//             className="w-full h-full object-cover"
 //             controls
 //           >
 //             <source src="/video.mp4" type="video/mp4" />
@@ -186,14 +184,13 @@
 
 //         <SwiperSlide className="flex items-center justify-center w-full h-full">
 //           <video
-//             className="w-full h-full object-cover" 
+//             className="w-full h-full object-cover"
 //             controls
 //           >
 //             <source src="/video.mp4" type="video/mp4" />
 //           </video>
 //         </SwiperSlide>
 
-        
 //       </Swiper>
 //     </div>
 //   );
@@ -233,112 +230,142 @@ function Instructors() {
         }}
         modules={[Mousewheel, Pagination]}
         style={{
-          width: '100%',
-          height: '80vh', 
+          width: "100%",
+          height: "80vh",
         }}
       >
         <SwiperSlide
           style={{
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            width: '100%',
-            height: '100%',
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            width: "100%",
+            height: "100%",
           }}
         >
           <video
             style={{
-              width: '70%',
-              height: '100%',
-              objectFit: 'cover',
+              width: "70%",
+              height: "100%",
+              objectFit: "cover",
             }}
             controls
+            muted
+            loop
+            autoPlay
           >
-            <source src="/video.mp4" type="video/mp4" />
+            <source
+              src="https://res.cloudinary.com/dlf3o8cx3/video/upload/v1700003046/videos/techfestvideo-bad2796a_il63ul.mp4"
+              type="video/mp4"
+            />
           </video>
         </SwiperSlide>
 
         <SwiperSlide
           style={{
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            width: '100%',
-            height: '100%',
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            width: "100%",
+            height: "100%",
           }}
         >
           <video
             style={{
-              width: '70%',
-              height: '100%',
-              objectFit: 'cover',
+              width: "70%",
+              height: "100%",
+              objectFit: "cover",
             }}
             controls
+            muted
+            loop
+            autoPlay
           >
-            <source src="/video.mp4" type="video/mp4" />
+            <source
+              src="https://res.cloudinary.com/dlf3o8cx3/video/upload/v1700003046/videos/techfestvideo-bad2796a_il63ul.mp4"
+              type="video/mp4"
+            />
           </video>
         </SwiperSlide>
 
         <SwiperSlide
           style={{
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            width: '100%',
-            height: '100%',
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            width: "100%",
+            height: "100%",
           }}
         >
           <video
             style={{
-              width: '70%',
-              height: '100%',
-              objectFit: 'cover',
+              width: "70%",
+              height: "100%",
+              objectFit: "cover",
             }}
             controls
+            muted
+            loop
+            autoPlay
           >
-            <source src="/video.mp4" type="video/mp4" />
+            <source
+              src="https://res.cloudinary.com/dlf3o8cx3/video/upload/v1700003046/videos/techfestvideo-bad2796a_il63ul.mp4"
+              type="video/mp4"
+            />
           </video>
         </SwiperSlide>
 
         <SwiperSlide
           style={{
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            width: '100%',
-            height: '100%',
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            width: "100%",
+            height: "100%",
           }}
         >
           <video
             style={{
-              width: '70%',
-              height: '100%',
-              objectFit: 'cover',
+              width: "70%",
+              height: "100%",
+              objectFit: "cover",
             }}
             controls
+            muted
+            loop
+            autoPlay
           >
-            <source src="/video.mp4" type="video/mp4" />
+            <source
+              src="https://res.cloudinary.com/dlf3o8cx3/video/upload/v1700003046/videos/techfestvideo-bad2796a_il63ul.mp4"
+              type="video/mp4"
+            />
           </video>
         </SwiperSlide>
 
         <SwiperSlide
           style={{
-            display: 'flex',
-            alignItems: 'center',
-            justifyContent: 'center',
-            width: '100%',
-            height: '100%',
+            display: "flex",
+            alignItems: "center",
+            justifyContent: "center",
+            width: "100%",
+            height: "100%",
           }}
         >
           <video
             style={{
-              width: '70%',
-              height: '100%',
-              objectFit: 'cover',
+              width: "70%",
+              height: "100%",
+              objectFit: "cover",
             }}
             controls
+            muted
+            loop
+            autoPlay
           >
-            <source src="/video.mp4" type="video/mp4" />
+            <source
+              src="https://res.cloudinary.com/dlf3o8cx3/video/upload/v1700003046/videos/techfestvideo-bad2796a_il63ul.mp4"
+              type="video/mp4"
+            />
           </video>
         </SwiperSlide>
       </Swiper>
