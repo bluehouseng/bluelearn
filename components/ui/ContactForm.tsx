@@ -14,7 +14,7 @@ function ContactForm() {
             <p className="text-3xl font-semibold max-w-[18rem] pt-8 pb-8">
               One Step Closer to Your Dreams
             </p>
-            <p className="text-[17px] mt-4">
+            <p className="text-[13.7px] mt-4">
               A free E-Learning service ready to help you become an expert.
             </p>
           </div>
