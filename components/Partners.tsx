@@ -227,7 +227,7 @@ const Partners = () => {
         }}
         style={{
           width: '100%',
-          height: 'auto',
+          height: '60px',
         }}
       >
         <SwiperSlide
@@ -356,7 +356,7 @@ const Partners = () => {
             className="font-bold text-2xl p-4 bg-openai bg-no-repeat bg-contain bg-center"
             style={{
               width: '100%',
-              height: '100%', 
+              height: '300%', 
             }}
           >
           
@@ -375,7 +375,7 @@ const Partners = () => {
             className="font-bold text-2xl p-4 bg-github bg-no-repeat bg-contain bg-center"
             style={{
               width: '100%',
-              height: '100%', 
+              height: '150%', 
             }}
           >
             
@@ -394,7 +394,7 @@ const Partners = () => {
             className="font-bold text-2xl p-4 bg-koenig bg-no-repeat bg-contain bg-center"
             style={{
               width: '100%',
-              height: '100%', 
+              height: '200%', 
             }}
           >
             
