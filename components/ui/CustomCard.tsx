@@ -80,7 +80,7 @@ const CustomCard: React.FC<CustomCardProps> = ({ imageUrl, title, description })
       <h3 className="text-xl font-bold mt-4 ">{title}</h3>
       <p className="text-gray-600 mt-2 text-sm">{description}</p>
 
-      <div className="flex items-center justify-between text-xs mt-4 ">
+      <div className="flex items-center justify-between text-xs mt-4 mx-2 ">
         <div className="flex items-center">
           <FaClock className="mr-1" />
           <span>4 hours</span>
