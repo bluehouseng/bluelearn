@@ -2,7 +2,7 @@ import React from "react";
 
 function ContactForm() {
   return (
-    <div className="flex p-10"> {/* Removed space-x-6 to eliminate spacing between the divs */}
+    <div className="flex p-8 space-x-0"> 
       <div className="relative max-w-lg flex-1"> 
         <img
           src="/svg/woman-writing-on-paper-3228878.svg"
@@ -18,31 +18,31 @@ function ContactForm() {
           </p>
         </div>
       </div>
-      <div className="relative max-w-lg flex-1 bg-[#2489D3] p-6 text-white"> {/* Removed mx-auto to make the div stretch the full available width */}
+      <div className="relative max-w-lg flex-1 bg-[#2489D3] p-6 text-white">
         <p className="text-xl font-semibold mb-2">Register Yourself!</p>
         <p className="text-md mb-4">Prepare yourself for a future full of stars</p>
-        <form action="" className="flex flex-col space-y-4">
+        <form action="" className="flex flex-col space-y-4"> {/* Added space-y-4 for spacing between form elements */}
           <input
             type="text"
             name="Your Name"
             placeholder="Your Name"
-            className="p-2 bg-[#2489D3] text-white placeholder-opacity-80 border border-transparent rounded"
+            className="p-4 bg-transparent text-white placeholder-opacity-80 border border-white rounded w-full"
           />
           <input
             type="email"
             name="Email"
             placeholder="Email"
-            className="p-2 bg-[#2489D3] text-white placeholder-opacity-80 border border-transparent rounded"
+            className="p-4 bg-transparent text-white placeholder-opacity-80 border border-white rounded w-full"
           />
           <input
             type="password"
             name="Password"
             placeholder="Password"
-            className="p-2 bg-[#2489D3] text-white placeholder-opacity-80 border border-transparent rounded"
+            className="p-4 bg-transparent text-white placeholder-opacity-80 border border-white rounded w-full"
           />
           <button
             type="submit"
-            className="p-2 bg-[#F0C932] text-white rounded hover:bg-blue-600"
+            className="p-4 bg-[#F0C932] text-white rounded hover:bg-[#d4b800]"
           >
             Register
           </button>
