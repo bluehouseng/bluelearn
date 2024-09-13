@@ -1,5 +1,6 @@
-/* eslint-disable react/no-unescaped-entities */
+
 import React from "react";
+import UnderlineElipse from "./common/icons/UnderlineElipse";
 
 function About() {
   return (
@@ -32,3 +33,4 @@ function About() {
   );
 }
 export default About;
+

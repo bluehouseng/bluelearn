@@ -4,7 +4,7 @@ import Image from "next/image";
 
 function Benefit() {
   return (
-    <div className="w-full">
+    <div className="w-full mt-10">
       <div className="flex justify-center ">
         <h1 className="text-2xl md:text-4xl font-semibold md:font-bold">Why Bluelearn?</h1>
       </div>
