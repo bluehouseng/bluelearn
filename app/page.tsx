@@ -8,19 +8,21 @@ import Hero from "@/components/Hero";
 // import Mentors from "@/components/Instructors";
 import Partners from "@/components/Partners";
 import Instructors from "@/components/Instructors";
+import ContactForm from "@/components/ui/ContactForm";
 
 export default function Home() {
   return (
     <main className="w-full min-h-screen">
-      <Nav />
+      {/* <Nav />
       <Hero />
       <Partners />
-      <About />
+      <About /> */}
       {/* <CourseRecomendations /> */}
-      <Benefit />
+      {/* <Benefit />
       <Instructors />
       <Blog/>
-      <Footer/>
+      <Footer/> */}
+      <ContactForm />
     </main>
   );
 }
