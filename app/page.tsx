@@ -3,8 +3,9 @@ import Benefit from "@/components/Benefit";
 import Blog from "@/components/Blog";
 import Footer from "@/components/common/Footer";
 import Nav from "@/components/common/Nav";
-// import CourseRecomendations from "@/components/ui/CourseRecomendations";
+import CourseRecomendations from "@/components/ui/CourseRecomendations";
 import Hero from "@/components/Hero";
+import Course from "@/components/Course";
 // import Mentors from "@/components/Instructors";
 import Partners from "@/components/Partners";
 import Instructors from "@/components/Instructors";
@@ -16,9 +17,11 @@ export default function Home() {
       <Hero />
       <Partners />
       <About />
+      
       {/* <CourseRecomendations /> */}
       <Benefit />
       <Instructors />
+      <Course />
       <Blog/>
       <Footer/>
     </main>
