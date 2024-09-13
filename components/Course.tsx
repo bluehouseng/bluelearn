@@ -116,14 +116,15 @@ function Course() {
     </Swiper>
 
     {/* Left Navigation Button */}
-    <div className="swiper-button-prev absolute pl-72 left-[5%] top-1/2 transform -translate-y-1/2 z-10  rounded-full p-3 cursor-pointer">
-      &lt;
-    </div>
+    <div className="swiper-button-prev absolute  top-1/2 transform -translate-y-1/2 z-10 rounded-full p-3 cursor-pointer text-4xl">
+  
+</div>
 
-    {/* Right Navigation Button */}
-    <div className="swiper-button-next absolute pr-72 right-[5%] top-1/2 transform -translate-y-1/2 z-10  rounded-full p-3 cursor-pointer">
-      &gt;
-    </div>
+{/* Right Navigation Button */}
+<div className="swiper-button-next absolute  top-1/2 transform -translate-y-1/2 z-10 rounded-full p-3 cursor-pointer text-4xl">
+  
+</div>
+
   </div>
 </div>
 
