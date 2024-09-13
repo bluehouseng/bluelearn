@@ -13,16 +13,17 @@ import ContactForm from "@/components/ui/ContactForm";
 export default function Home() {
   return (
     <main className="w-full min-h-screen">
-      {/* <Nav />
+      <Nav />
       <Hero />
       <Partners />
-      <About /> */}
+      <About />
       {/* <CourseRecomendations /> */}
-      {/* <Benefit />
+      <Benefit />
       <Instructors />
       <Blog/>
-      <Footer/> */}
       <ContactForm />
+      <Footer/> 
+      
     </main>
   );
 }
