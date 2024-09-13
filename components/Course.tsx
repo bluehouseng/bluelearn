@@ -40,7 +40,7 @@ function Course() {
       }}
       modules={[Mousewheel, Pagination, Navigation]}
       style={{
-        width: '100%', // The swiper takes full width
+        width: '100%', 
         height: '80vh',
       }}
     >

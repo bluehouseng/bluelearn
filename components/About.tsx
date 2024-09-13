@@ -6,7 +6,7 @@ function About() {
   return (
     <div className="flex justify-center items-center h-screen  bg-secondary mb-20">
       <div className="flex justify-center space-x-16 h-1/2 mx-20 ">
-        <div className="w-1/2 mt-16">
+        <div className="w-1/2 mt-8">
           <h2 className="text-lg   ">About us</h2>
           <p className="font-semibold text-3xl  mt-6">
             We've helped 1000+ across Africa upskill, get internship roles and
