@@ -9,7 +9,11 @@ import Course from "@/components/Course";
 // import Mentors from "@/components/Instructors";
 import Partners from "@/components/Partners";
 import Instructors from "@/components/Instructors";
+
+import ContactForm from "@/components/ui/ContactForm";
+
 import Faq from "@/components/Faq";
+
 
 export default function Home() {
   return (
@@ -25,7 +29,9 @@ export default function Home() {
       <Instructors />
       <Course />
       <Blog/>
-      <Footer/>
+      <ContactForm />
+      <Footer/> 
+      
     </main>
   );
 }
