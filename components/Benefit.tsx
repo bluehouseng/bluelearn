@@ -4,11 +4,11 @@ import Image from "next/image";
 
 function Benefit() {
   return (
-    <div className="w-full mt-10">
+    <div className="w-full my-20">
       <div className="flex justify-center ">
         <h1 className="text-2xl md:text-4xl font-semibold md:font-bold">Why Bluelearn?</h1>
       </div>
-      <div className="mx-10 grid grid-cols-1 md:grid-cols-3  mt-6 gap-6 ">
+      <div className="mx-10 grid grid-cols-1 md:grid-cols-3  mt-10 gap-6 ">
         <div className="bg-[#F4F6FC] p-16 steps-card flex flex-col">
           <Image src="/one.png" alt="" width={40} height={40} />
           <div className="">

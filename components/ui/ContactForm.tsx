@@ -2,7 +2,7 @@ import React from "react";
 
 function ContactForm() {
   return (
-    <div className="flex items-center justify-center min-h-screen w-full "> 
+    <div className="flex items-center justify-center min-h-screen w-full my-20"> 
       <div className="flex justify-center w-full"> 
         <div className="relative max-w-lg flex-1">
           <img

@@ -21,15 +21,13 @@ export default function Home() {
       <Nav />
       <Hero />
       <Partners />
-      <About />
-      
-      {/* <CourseRecomendations /> */}
-      <Faq />
       <Benefit />
-      <Instructors />
+      <About />
       <Course />
-      <Blog/>
+      <Faq />
+      <Instructors />
       <ContactForm />
+      <Blog/>
       <Footer/> 
       
     </main>

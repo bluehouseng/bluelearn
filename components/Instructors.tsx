@@ -17,8 +17,8 @@ function Instructors() {
   }
 
   return (
-    <div className="w-full flex flex-col items-center justify-center mt-10">
-      <div className="mb-6 text-center">
+    <div className="w-full flex flex-col items-center justify-center my-20">
+      <div className="mb-10 text-center">
         <h2 className="text-4xl font-bold">Meet Our Instructors</h2>
       </div>
       <Swiper
