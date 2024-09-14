@@ -24,7 +24,7 @@ function Blog() {
     },
   ];
   return (
-    <section className="my-20">
+    <section className="my-10">
       <div className="container mx-auto px-4 md:px-0">
         <h2 className="text-2xl text-center md:text-start md:text-4xl font-semibold">Blog, News, and Events</h2>
 

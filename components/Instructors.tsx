@@ -6,18 +6,8 @@ import "swiper/css";
 import "swiper/css/pagination";
 
 function Instructors() {
-  const [isClient, setIsClient] = useState(false);
-
-  useEffect(() => {
-    setIsClient(true);
-  }, []);
-
-  if (!isClient) {
-    return null;
-  }
-
   return (
-    <div className="w-full flex flex-col items-center justify-center my-20">
+    <div className="w-full flex flex-col items-center justify-center pt-20">
       <div className="mb-10 text-center">
         <h2 className="text-4xl font-bold">Meet Our Instructors</h2>
       </div>

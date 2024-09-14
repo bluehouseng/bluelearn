@@ -15,7 +15,7 @@ const Faq = () => {
         setIsOpenIndex(isOpenIndex === index ? null : index)
     }
     return (
-        <div className='container mx-auto px-10 py-20 flex flex-col md:flex-row gap-40'>
+        <div className='container mx-auto px-10 pt-20 pb-10 flex flex-col md:flex-row gap-40'>
             <div className="md:w-[35%] flex flex-col gap-2">
                 <h1 className='text-2xl font-semibold md:w-2/3'>Frequently Asked Questions</h1>
                 <p className='text-[#282938]'>Still confused or unsure? Contact us at +234 800 567 8901</p>
