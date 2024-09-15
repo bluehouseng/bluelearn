@@ -31,7 +31,7 @@ function ContactForm() {
               Express Your Interest!
             </p>
             <p className="text-sm mb-6 text-gray-300">
-              Fill out the form below to let us know you're interested. We'll keep you updated with the latest information and opportunities.
+            Fill out the form below to let us know you&apos;re interested. We&apos;ll keep you updated with the latest information and opportunities.
             </p>
             <form action="" className="flex flex-col space-y-4">
               <input
