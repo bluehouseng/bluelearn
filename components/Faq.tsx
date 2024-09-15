@@ -23,7 +23,7 @@ const Faq = () => {
 
             <div className="md:w-[65%] flex flex-col gap-8">
                 {accordionData.map((info, index) => (
-                    <div className='w-full flex justify-between border-b pb-6'>
+                    <div className='w-full flex justify-between border-b pb-6' key={index + info.title}>
                         <div className="flex gap-8 md:gap-16">
                             <h4 className='text-xl text-primary font-medium '>0{index +1}</h4>
                             <div className="flex flex-col gap-4">

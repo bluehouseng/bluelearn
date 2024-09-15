@@ -1,12 +1,13 @@
 import React, { useState, useEffect } from 'react';
+import Image from 'next/image';
 
 interface ImageOnlyCardProps {
-  images: string[]; // Array of image URLs
+  images: string[]; 
   className?: string;
-  interval?: number; // Interval for changing images in milliseconds
+  interval?: number;
 }
 
-const ImageOnlyCard: React.FC<ImageOnlyCardProps> = ({ images, className = '', interval = 3000 }) => {
+const ImageOnlyCard: React.FC<ImageOnlyCardProps> = ({ images, className = '', interval = 1500 }) => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   useEffect(() => {
@@ -21,10 +22,12 @@ const ImageOnlyCard: React.FC<ImageOnlyCardProps> = ({ images, className = '', i
 
   return (
     <div className={`${className} relative`}>
-      <img 
+      <Image
         src={images[currentImageIndex]} 
         alt="Card Image" 
         className='w-full h-full object-cover' 
+        width={500}
+        height={500}
       />
     </div>
   );

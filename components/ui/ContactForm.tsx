@@ -1,4 +1,5 @@
 import React from "react";
+import Image from "next/image";
 
 function ContactForm() {
   return (
@@ -6,10 +7,12 @@ function ContactForm() {
         <div className="flex w-full max-w-[60rem] shadow-custom-light ">
         {/* Image Section */}
         <div className="relative flex-1 rounded-l-lg  overflow-hidden">
-          <img
+          <Image
             src="/svg/woman-writing-on-paper-3228878.svg"
             alt="Woman writing"
             className="w-full h-auto object-cover"
+            width={500}
+            height={500}
           />
           <div className="absolute inset-0 flex flex-col justify-start items-start text-white text-left p-6 bg-[#1C1E5399] pl-12">
             <p className="text-3xl font-semibold max-w-md pt-20 pb-8">
