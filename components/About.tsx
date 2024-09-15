@@ -1,4 +1,4 @@
-'use client'
+"use client";
 import { motion } from "framer-motion";
 import React from "react";
 import ImageOnlyCard from "./ui/ImageOnlyCard";
@@ -26,7 +26,7 @@ function About() {
                 scale: 1.05,
                 backgroundColor: "#ffffff",
                 color: "#007BFF",
-              }} 
+              }}
               whileTap={{ scale: 0.95 }}
               transition={{ duration: 0.3 }}
             >
@@ -50,7 +50,17 @@ function About() {
               type="video/mp4"
             />
           </video> */}
-          <ImageOnlyCard images={['https://res.cloudinary.com/dr2ipw7nb/image/upload/v1726357542/CYF_3559_m8xtj8.jpg',"https://res.cloudinary.com/dr2ipw7nb/image/upload/v1726358169/CYF_6745_lg2yvs.jpg",'https://res.cloudinary.com/dr2ipw7nb/image/upload/v1726357544/CYF_3536_ryusrf.jpg','https://res.cloudinary.com/dr2ipw7nb/image/upload/v1726357544/CYF_3548_d8oulg.jpg','https://res.cloudinary.com/dr2ipw7nb/image/upload/v1726357542/CYF_0238_vl4ef5.jpg','https://res.cloudinary.com/dr2ipw7nb/image/upload/v1726357540/CYF_3557_maeocr.jpg', 'https://res.cloudinary.com/dr2ipw7nb/image/upload/v1726358171/CYF_6617._bak4dh.jpg']} />
+          <ImageOnlyCard
+            images={[
+              "https://res.cloudinary.com/dr2ipw7nb/image/upload/v1726357542/CYF_3559_m8xtj8.jpg",
+              "https://res.cloudinary.com/dr2ipw7nb/image/upload/v1726358169/CYF_6745_lg2yvs.jpg",
+              "https://res.cloudinary.com/dr2ipw7nb/image/upload/v1726357544/CYF_3536_ryusrf.jpg",
+              "https://res.cloudinary.com/dr2ipw7nb/image/upload/v1726357544/CYF_3548_d8oulg.jpg",
+              "https://res.cloudinary.com/dr2ipw7nb/image/upload/v1726357542/CYF_0238_vl4ef5.jpg",
+              "https://res.cloudinary.com/dr2ipw7nb/image/upload/v1726357540/CYF_3557_maeocr.jpg",
+              "https://res.cloudinary.com/dr2ipw7nb/image/upload/v1726358171/CYF_6617._bak4dh.jpg",
+            ]}
+          />
         </div>
       </div>
     </div>

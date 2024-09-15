@@ -7,7 +7,7 @@ interface ImageOnlyCardProps {
   interval?: number;
 }
 
-const ImageOnlyCard: React.FC<ImageOnlyCardProps> = ({ images, className = '', interval = 1500 }) => {
+const ImageOnlyCard: React.FC<ImageOnlyCardProps> = ({ images, className = '', interval = 4000 }) => {
   const [currentImageIndex, setCurrentImageIndex] = useState(0);
 
   useEffect(() => {
