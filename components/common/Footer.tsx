@@ -55,10 +55,10 @@ function Footer() {
                 Social Media
               </h3>
               <ul className="text-white text-sm space-y-2 cursor-pointer">
-                <li>Facebook</li>
-                <li>LinkedIn</li>
-                <li>Twitter</li>
-                <li>Instagram</li>
+                <li><a href="https://facebook.com">Facebook</a></li>
+                <li><a href="https://x.com/Blue_House_Tech">Twitter</a></li>
+                <li><a href="https://instagram.com">Instagram</a></li>
+                <li><a href="https://linkedin.com">LinkedIn</a></li>
               </ul>
             </div>
             <div className="space-y-6">
