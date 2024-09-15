@@ -1,5 +1,7 @@
+'use client'
 import React from "react";
 import UnderlineElipse from "./common/icons/UnderlineElipse";
+import { motion } from "framer-motion";
 
 const Hero = () => {
   return (
@@ -9,7 +11,7 @@ const Hero = () => {
           <h1 className="relative p-3 md:p-0 text-3xl md:text-5xl font-bold md:leading-[75px] text-white bg-primary/20 text-center rounded-lg">
             Helping Africans Upskill and Land Remote Jobs in Europe.
             <span className="hidden md:flex absolute top-16 right-40">
-              {" "} 
+              {" "}
               <UnderlineElipse />{" "}
             </span>
           </h1>
@@ -21,9 +23,16 @@ const Hero = () => {
           </p>
 
           <div className="flex gap-6">
-            <button className="md:py-4 py-3 px-8 md:text-xl flex items-center justify-center bg-primary text-white rounded-md hover:bg-secondary md:font-bold border-none">
+            <motion.button
+              whileHover={{
+                scale: 1,
+                transition: { duration: 1 },
+              }}
+              whileTap={{ scale: 0.7 }}
+              className="md:py-4 py-3 px-8 md:text-xl flex items-center justify-center bg-primary text-white rounded-md hover:bg-secondary md:font-bold border-none"
+            >
               Apply Now
-            </button>
+            </motion.button>
           </div>
         </div>
       </div>

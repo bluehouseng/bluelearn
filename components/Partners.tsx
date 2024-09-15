@@ -220,7 +220,7 @@ const Partners = () => {
         modules={[Autoplay]}
         slidesPerView={5}
         spaceBetween={30}
-        centeredSlides={true}
+        // centeredSlides={true}
         autoplay={{
           delay: 2500,
           disableOnInteraction: false,

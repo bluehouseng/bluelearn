@@ -28,7 +28,7 @@ function Blog() {
       <div className="container mx-auto px-4 md:px-0">
         <h2 className="text-2xl text-center md:text-start md:text-4xl font-semibold">Blog, News, and Events</h2>
 
-        <div className="grid grid-cols-1  md:grid-cols-3 justify-between gap-6 mt-6 md:mt-14">
+        <div className="grid grid-cols-1  md:grid-cols-3 justify-between gap-6 my-6 md:my-14">
           {
             blogPosts.map((item: {
               imageUrl: string | StaticImageData;

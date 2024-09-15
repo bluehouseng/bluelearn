@@ -1,6 +1,7 @@
 import Image, { StaticImageData } from "next/image";
 import React from "react";
 import ArrowRight from "../common/icons/ArrowRight";
+import { truncate } from "@/utils/helpers";
 
 type Props = {
   imageUrl: string | StaticImageData;
@@ -10,11 +11,9 @@ type Props = {
 };
 
 function BlogCard({ date, description, imageUrl, title }: Readonly<Props>) {
-  function truncate(str: string, n: number) {
-    return str.length > n ? str.slice(0, n - 1) + "..." : str;
-  }
+  
   return (
-    <div className="w-full">
+    <div className="w-full cursor-pointer">
       <Image src={imageUrl} alt={title} width={402} height={285} />
       <p className="text-lg font-medium mt-4 text-gray-500">{date}</p>
       <h3 className="text-xl font-medium text-wrap mt-4">{title}</h3>

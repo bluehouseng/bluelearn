@@ -1,6 +1,6 @@
 "use client";
-import Image from "next/image";
-import React, { useState, useEffect } from "react";
+
+import React from "react";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { Mousewheel, Pagination, Navigation } from "swiper/modules";
 import "swiper/css";
@@ -13,7 +13,7 @@ function Course() {
   return (
     <div className="w-full flex flex-col items-center justify-center mt-10">
       <div className="mb-6 text-center">
-        <h2 className="text-4xl font-bold"> Our Courses</h2>
+        <h2 className="text-4xl font-bold">Our Courses</h2>
       </div>
       <div className="relative w-full">
         <Swiper
@@ -21,9 +21,7 @@ function Course() {
           slidesPerView={1}
           spaceBetween={40}
           mousewheel={true}
-          pagination={{
-            clickable: true,
-          }}
+          pagination={{ clickable: true }}
           navigation={{
             prevEl: ".swiper-button-prev",
             nextEl: ".swiper-button-next",
@@ -47,10 +45,15 @@ function Course() {
               imageUrl={"/customCardsvg/unsplash_m_HRfLhgABo.svg"}
               title={"Basic WEB Programming"}
               description={
-                "Learning materials on creating websites for beginners"
+                "Learn web development basics. Create websites from scratch and build a solid foundation in web design."
               }
             />
-            <ImageOnlyCard imageUrl="/customCardsvg/unsplash_m_HRfLhgABo.svg" className="w-1/2 p-5" />
+            <ImageOnlyCard
+              images={[
+                "https://res.cloudinary.com/dr2ipw7nb/image/upload/v1726352882/CYF_0288_quqwvp.jpg",
+              ]}
+              className="w-1/2 p-5"
+            />
           </SwiperSlide>
 
           <SwiperSlide
@@ -66,11 +69,15 @@ function Course() {
               imageUrl={"/customCardsvg/pexels-lukas-590016 1.svg"}
               title={"Digital Marketing 101"}
               description={
-                "Materials on marketing strategies and concepts for beginners"
+                "Explore digital marketing strategies. Perfect for beginners to learn effective online marketing techniques."
               }
             />
-            <ImageOnlyCard imageUrl="/customCardsvg/unsplash_m_HRfLhgABo.svg" className="w-1/2 p-5" />
-            
+            <ImageOnlyCard
+              images={[
+                "https://res.cloudinary.com/dr2ipw7nb/image/upload/v1726352896/CYF_0341_umqchd.jpg",
+              ]}
+              className="w-1/2 p-5"
+            />
           </SwiperSlide>
 
           <SwiperSlide
@@ -84,13 +91,16 @@ function Course() {
           >
             <CustomCard
               imageUrl={"/customCardsvg/pexels-olya-kobruseva-5561923 1.svg"}
-              title={"Fundamentals of Data Science"}
-              description={"Learning materials on the basics of data science"}
+              title={"Data Analytics"}
+              description={"Understand the fundamentals of data analytics and gain key insights into data science."}
             />
-            <ImageOnlyCard imageUrl="/customCardsvg/unsplash_m_HRfLhgABo.svg" className="w-1/2 p-5" />
-
+            <ImageOnlyCard
+              images={[
+                "https://res.cloudinary.com/dr2ipw7nb/image/upload/v1726352891/CYF_0324_i0vmc4.jpg",
+              ]}
+              className="w-1/2 p-5"
+            />
           </SwiperSlide>
-
 
           <SwiperSlide
             style={{
@@ -103,21 +113,23 @@ function Course() {
           >
             <CustomCard
               imageUrl={"/customCardsvg/unsplash_m_HRfLhgABo.svg"}
-              title={"Basic WEB Programming"}
-              description={
-                "Learning materials on creating websites for beginners"
-              }
+              title={"Cyber Security"}
+              description={"Explore basic concepts of cyber security to safeguard your digital presence."}
             />
-            <ImageOnlyCard imageUrl="/customCardsvg/unsplash_m_HRfLhgABo.svg" className="w-1/2 p-5" />
-            
+            <ImageOnlyCard
+              images={[
+                "https://res.cloudinary.com/dr2ipw7nb/image/upload/v1726352886/CYF_0358_wuan33.jpg",
+              ]}
+              className="w-1/2 p-5"
+            />
           </SwiperSlide>
         </Swiper>
 
         {/* Left Navigation Button */}
-        <div className="swiper-button-prev absolute  top-1/2 transform -translate-y-1/2 z-10 rounded-full p-3 cursor-pointer text-4xl"></div>
+        <div className="swiper-button-prev absolute top-1/2 transform -translate-y-1/2 z-10 rounded-full p-3 cursor-pointer text-4xl "></div>
 
         {/* Right Navigation Button */}
-        <div className="swiper-button-next absolute  top-1/2 transform -translate-y-1/2 z-10 rounded-full p-3 cursor-pointer text-4xl"></div>
+        <div className="swiper-button-next absolute top-1/2 transform -translate-y-1/2 z-10 rounded-full p-3 cursor-pointer text-4xl "></div>
       </div>
     </div>
   );
