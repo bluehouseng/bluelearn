@@ -50,14 +50,7 @@ function ContactForm() {
                 required
                 aria-label="Email"
               />
-              <input
-                type="password"
-                name="password"
-                placeholder="Password"
-                className="p-3 bg-transparent text-white placeholder-gray-400 border border-gray-400 rounded focus:outline-none focus:ring-2"
-                required
-                aria-label="Password"
-              />
+            
               <button
                 type="submit"
                 className="p-3 bg-[#F0C932] text-white rounded hover:bg-[#d4b800] transition duration-200"

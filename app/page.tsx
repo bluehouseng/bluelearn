@@ -23,9 +23,6 @@ export default function Home() {
         <About />
       </AnimatedComponent>
         <Course />
-      <AnimatedComponent id="faq">
-        <Faq />
-      </AnimatedComponent>
       <AnimatedComponent id="instructors">
         <Instructors />
       </AnimatedComponent>
@@ -33,6 +30,9 @@ export default function Home() {
         <ContactForm />
       </AnimatedComponent>
         <Blog />
+      <AnimatedComponent id="faq">
+        <Faq />
+      </AnimatedComponent>
       <Footer/> 
       
     </main>
