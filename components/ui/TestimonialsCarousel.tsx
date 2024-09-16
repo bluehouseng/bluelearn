@@ -28,7 +28,6 @@ const testimonialsData: Testimonial[] = [
 function TestimonialsCarousel() {
   const [currentIndex, setCurrentIndex] = useState(0);
 
-  
   useEffect(() => {
     const interval = setInterval(() => {
       setCurrentIndex((prevIndex) =>
@@ -42,8 +41,9 @@ function TestimonialsCarousel() {
 
   return (
     <div className="w-full h-auto py-10 px-4 bg-[#EEF4FA] border border-gray-300 rounded-lg">
-    
+      {/* Main Content */}
       <div className="flex justify-between items-start gap-2">
+        {/* Left Section (Static Text) */}
         <div className="w-1/2 text-left">
           <h2 className="text-2xl font-bold pb-4">Testimonials</h2>
           <p className="text-gray-500">
@@ -51,39 +51,42 @@ function TestimonialsCarousel() {
           </p>
         </div>
 
-        
-        <div className="w-1/2 flex flex-col items-end space-y-4">
+        {/* Right Section (Changing Testimonial) */}
+        <div className="w-1/2 flex items-start space-x-4">
           
-          <div className="max-w-lg text-right">
-            <p className="italic text-gray-700 mb-4">{`"${text}"`}</p>
-            <p className="font-bold">{user}</p>
-            <p className="text-gray-500">{role}</p>
-          </div>
+          
 
           
-          <div className="flex items-center justify-end space-x-24"> 
-            
-            <div className="w-7 h-7 rounded-full bg-gray-200 overflow-hidden">
-              <img
-                src={image}
-                alt={user}
-                className="w-full h-full object-cover"
-              />
-            </div>
-
-            
-            <div className="flex space-x-2">
-              {testimonialsData.map((_, index) => (
-                <button
-                  key={index}
-                  onClick={() => setCurrentIndex(index)}
-                  className={`w-3 h-3 rounded-full ${
-                    currentIndex === index ? "bg-blue-500" : "bg-gray-300"
-                  }`}
-                ></button>
-              ))}
+          <div className="max-w-xl">
+            <p className="italic text-gray-700 mb-2">{`"${text}"`}</p>
+            <div className="mt-4">
+            <div className="w-16 h-16 rounded-full bg-gray-200 overflow-hidden">
+            <img
+              src={image}
+              alt={user}
+              className="w-full h-full object-cover"
+            />
+          </div>
+              <p className="font-bold">{user}</p>
+              <p className="text-gray-500">{role}</p>
             </div>
           </div>
+          
+        </div>
+      </div>
+
+      
+      <div className="flex justify-end mt-6">
+        <div className="space-x-2">
+          {testimonialsData.map((_, index) => (
+            <button
+              key={index}
+              onClick={() => setCurrentIndex(index)}
+              className={`w-3 h-3 rounded-full ${
+                currentIndex === index ? "bg-blue-500" : "bg-gray-300"
+              }`}
+            ></button>
+          ))}
         </div>
       </div>
     </div>
