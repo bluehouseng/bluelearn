@@ -12,7 +12,7 @@ type Testimonial = {
 const testimonialsData: Testimonial[] = [
   {
     text: "The material presented is easy to understand, the quality of the instructors is excellent, and their response is quick. So, I highly recommend the courses here!!",
-    image: "/svg/woman-writing-on-paper-3228878.svg", // replace with actual image path
+    image: "/svg/woman-writing-on-paper-3228878.svg", 
     user: "Andrew Festus",
     role: "CEO/HOC",
   },
@@ -41,9 +41,9 @@ function TestimonialsCarousel() {
 
   return (
     <div className="w-full h-auto py-10 px-4 bg-[#EEF4FA] border border-gray-300 rounded-lg">
-      {/* Main Content */}
+  
       <div className="flex justify-between items-start gap-2">
-        {/* Left Section (Static Text) */}
+        
         <div className="w-1/2 text-left">
           <h2 className="text-2xl font-bold pb-4">Testimonials</h2>
           <p className="text-gray-500">
@@ -51,7 +51,7 @@ function TestimonialsCarousel() {
           </p>
         </div>
 
-        {/* Right Section (Changing Testimonial) */}
+        
         <div className="w-1/2 flex items-start space-x-4">
           
           

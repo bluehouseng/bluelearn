@@ -9,12 +9,13 @@ import Instructors from "@/components/Instructors";
 import ContactForm from "@/components/ui/ContactForm";
 import Faq from "@/components/Faq";
 import AnimatedComponent from "@/components/common/AnimatedScrollComponent";
+import TestimonialsCarousel from "@/components/ui/TestimonialsCarousel";
 
 
 export default function Home() {
   return (
     <main className="w-full min-h-screen">
-      <Nav />
+      {/* <Nav />
       <Hero />
       <AnimatedComponent id="partners">
       <Partners />
@@ -33,7 +34,8 @@ export default function Home() {
         <ContactForm />
       </AnimatedComponent>
         <Blog />
-      <Footer/> 
+      <Footer/>  */}
+      <TestimonialsCarousel/>
       
     </main>
   );
