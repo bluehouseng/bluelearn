@@ -59,7 +59,7 @@ function TestimonialsCarousel() {
           
           <div className="max-w-xl">
             <p className="italic text-gray-700 mb-2">{`"${text}"`}</p>
-            <div className="mt-4">
+            <div className="mt-4 ">
             <div className="w-16 h-16 rounded-full bg-gray-200 overflow-hidden">
             <img
               src={image}
