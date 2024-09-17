@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import React from "react";
 import ImageOnlyCard from "./ui/ImageOnlyCard";
 import useInView from "@/hooks/useInView";
+import AnimatedTitle from "./common/AnimatedTitle";
 
 function About() {
 
@@ -15,7 +16,7 @@ function About() {
       <div className="flex justify-center space-x-16 h-1/2 mx-20 ">
         <div className="w-1/2 flex flex-col justify-between">
          <div>
-         <h2 className="text-lg font-bold">About Our Community</h2>
+         <AnimatedTitle styles="text-lg font-bold" title="About Our Community" />
           <motion.p 
           ref={ref}
           initial={{ opacity: 0 }}
@@ -28,7 +29,7 @@ function About() {
           <motion.p 
           initial={{ opacity: 0 }}
           animate={{ opacity: 1 }}
-          transition={{ delay: 0. }}
+          transition={{ delay: 0.9 }}
           className="text-sm font-semibold mt-4">
             Our vibrant community is dedicated to helping you advance your
             career or explore new passions. With access to essential tools,
