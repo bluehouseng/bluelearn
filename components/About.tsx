@@ -2,8 +2,15 @@
 import { motion } from "framer-motion";
 import React from "react";
 import ImageOnlyCard from "./ui/ImageOnlyCard";
+import useInView from "@/hooks/useInView";
+import AnimatedTitle from "./common/AnimatedTitle";
 
 function About() {
+
+  const { ref, isInView } = useInView({
+    threshold: 0.1, 
+  });
+
   return (
     <div className="flex justify-center items-center md:h-screen  bg-secondary mb-20 py-6">
       <div className="flex flex-col gap-6 md:flex-row justify-center space-x-16 h-1/2 px-6 md:mx-20 ">
@@ -53,7 +60,7 @@ function About() {
           <ImageOnlyCard
             images={[
               "https://res.cloudinary.com/dr2ipw7nb/image/upload/v1726357542/CYF_3559_m8xtj8.jpg",
-              "https://res.cloudinary.com/dr2ipw7nb/image/upload/v1726358169/CYF_6745_lg2yvs.jpg",
+              // "https://res.cloudinary.com/dr2ipw7nb/image/upload/v1726358169/CYF_6745_lg2yvs.jpg",
               "https://res.cloudinary.com/dr2ipw7nb/image/upload/v1726357544/CYF_3536_ryusrf.jpg",
               "https://res.cloudinary.com/dr2ipw7nb/image/upload/v1726357544/CYF_3548_d8oulg.jpg",
               "https://res.cloudinary.com/dr2ipw7nb/image/upload/v1726357542/CYF_0238_vl4ef5.jpg",

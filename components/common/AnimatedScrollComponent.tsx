@@ -12,7 +12,7 @@ const AnimatedComponent = ({ id, children }: { id: string; children: React.React
       id={id}
       initial={{ opacity: 0, y: 50 }}
       animate={{ opacity: isVisible ? 1 : 0, y: isVisible ? 0 : 50 }}
-      transition={{ duration: 0.1 }}
+      transition={{ duration: 0.4 }}
       className="w-full"
     >
       {children}

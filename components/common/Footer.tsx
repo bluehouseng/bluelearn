@@ -8,7 +8,7 @@ const monsterat = Montserrat({
 function Footer() {
   const currentYear = new Date().getFullYear();
   return (
-    <footer className="mt-[13%]">
+    <footer className="mt-[5%]">
       <section className="bg-primary w-full pt-12">
         <div className="container mx-auto flex justify-between min-h-[340px] sm:w-full flex-col sm:flex-row">
           <aside className="flex flex-col justify-between w-full sm:w-1/2">

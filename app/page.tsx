@@ -10,31 +10,27 @@ import ContactForm from "@/components/ui/ContactForm";
 import Faq from "@/components/Faq";
 import AnimatedComponent from "@/components/common/AnimatedScrollComponent";
 
-
 export default function Home() {
   return (
     <main className="w-full min-h-screen">
       <Nav />
       <Hero />
       <AnimatedComponent id="partners">
-      <Partners />
+        <Partners />
       </AnimatedComponent>
       <AnimatedComponent id="about">
         <About />
       </AnimatedComponent>
-        <Course />
-      <AnimatedComponent id="faq">
-        <Faq />
-      </AnimatedComponent>
+      <Course />
       <AnimatedComponent id="instructors">
         <Instructors />
       </AnimatedComponent>
+      <Blog />
       <AnimatedComponent id="contact-form">
         <ContactForm />
       </AnimatedComponent>
-        <Blog />
-      <Footer/> 
-      
+      <Faq />
+      <Footer />
     </main>
   );
 }

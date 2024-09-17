@@ -221,8 +221,9 @@ const Partners = () => {
         slidesPerView={5}
         spaceBetween={30}
         // centeredSlides={true}
+        loop={true}
         autoplay={{
-          delay: 2500,
+          delay: 800,
           disableOnInteraction: false,
         }}
         style={{
