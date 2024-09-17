@@ -12,32 +12,21 @@ function About() {
   });
 
   return (
-    <div className="flex justify-center items-center h-screen  bg-secondary mb-20">
-      <div className="flex justify-center space-x-16 h-1/2 mx-20 ">
-        <div className="w-1/2 flex flex-col justify-between">
-         <div>
-         <AnimatedTitle styles="text-lg font-bold" title="About Our Community" />
-          <motion.p 
-          ref={ref}
-          initial={{ opacity: 0 }}
-          animate={{ opacity: isInView ? 1 : 0 }}
-          transition={{ delay: 0.5 }}
-          className="font-semibold text-3xl mt-4">
-          We’ve empowered over 1000 individuals across Africa to upskill,
-          secure internships, and land remote jobs.
-          </motion.p>
-          <motion.p 
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ delay: 0.9 }}
-          className="text-sm font-semibold mt-4">
+    <div className="flex justify-center items-center md:h-screen  bg-secondary mb-20 py-6">
+      <div className="flex flex-col gap-6 md:flex-row justify-center space-x-16 h-1/2 px-6 md:mx-20 ">
+        <div className="md:w-1/2">
+          <h2 className="text-lg font-bold">About Our Community</h2>
+          <p className="font-semibold text-2xl md:text-3xl mt-4">
+            We’ve empowered over 1000 individuals across Africa to upskill,
+            secure internships, and land remote jobs.
+          </p>
+          <p className="text-sm font-semibold mt-4">
             Our vibrant community is dedicated to helping you advance your
             career or explore new passions. With access to essential tools,
             resources, and a supportive network, Blulearn provides everything
             you need to succeed.
-          </motion.p>
-         </div>
-          <div className="flex gap-6 mt-6">
+          </p>
+          <div className="flex w-full gap-6 mt-6">
             <motion.button
               className="md:py-2 py-3 px-8 md:text-xl flex items-center justify-center bg-primary text-white rounded-md border-none"
               whileHover={{
@@ -53,7 +42,7 @@ function About() {
           </div>
         </div>
 
-        <div className="w-1/2">
+        <div className="md:w-1/2">
           {/* <video
             width="800"
             height="1000"
