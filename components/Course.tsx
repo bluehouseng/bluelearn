@@ -87,10 +87,14 @@ function Course() {
                   "Explore digital marketing strategies. Perfect for beginners to learn effective online marketing techniques."
                 }
               />
-              <ImageOnlyCard
+              {/* <ImageOnlyCard
                 images={[
                   "https://res.cloudinary.com/dr2ipw7nb/image/upload/v1726352896/CYF_0341_umqchd.jpg",
                 ]}
+                className="w-1/2 p-5"
+              /> */}
+               <ImageOnlyCard
+                images={["/images/Frame.png"]}
                 className="w-1/2 p-5"
               />
             </SwiperSlide>
@@ -111,10 +115,14 @@ function Course() {
                   "Understand the fundamentals of data analytics and gain key insights into data science."
                 }
               />
-              <ImageOnlyCard
+              {/* <ImageOnlyCard
                 images={[
                   "https://res.cloudinary.com/dr2ipw7nb/image/upload/v1726352891/CYF_0324_i0vmc4.jpg",
                 ]}
+                className="w-1/2 p-5"
+              /> */}
+               <ImageOnlyCard
+                images={["/images/Frame.png"]}
                 className="w-1/2 p-5"
               />
             </SwiperSlide>
@@ -135,10 +143,14 @@ function Course() {
                   "Explore basic concepts of cyber security to safeguard your digital presence."
                 }
               />
-              <ImageOnlyCard
+              {/* <ImageOnlyCard
                 images={[
                   "https://res.cloudinary.com/dr2ipw7nb/image/upload/v1726352886/CYF_0358_wuan33.jpg",
                 ]}
+                className="w-1/2 p-5"
+              /> */}
+               <ImageOnlyCard
+                images={["/images/Frame.png"]}
                 className="w-1/2 p-5"
               />
             </SwiperSlide>
