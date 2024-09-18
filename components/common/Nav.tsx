@@ -1,8 +1,6 @@
 import { Montserrat } from "next/font/google";
 import React from "react";
 import ElipseIcon from "./icons/ElipseIcon";
-import YellowElipse from "./icons/YellowElipse";
-import ShareIcon from "./icons/ShareIcon";
 
 const monsterat = Montserrat({
   subsets: ["latin"],
@@ -46,7 +44,7 @@ const Nav = () => {
               Login
             </button>
             <button className="px-6 py-3 flex items-center justify-center bg-primary text-white rounded">
-              Get Started!
+              Apply Now!
             </button>
           </div>
         </div>
