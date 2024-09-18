@@ -13,12 +13,16 @@ import AnimatedTitle from "./common/AnimatedTitle";
 
 function Course() {
   return (
-    <div className="w-full flex flex-col items-center justify-center">
+    <div
+      className="w-full flex
+     flex-col items-center justify-center"
+    >
       <div className="mb-6 flex flex-col items-center gap-1.5 text-center">
-        <AnimatedTitle title="Our Courses" styles={"text-4xl font-semibold"} />
-        <AnimatedTitle title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus quod enim similique vel, incidunt odio." styles={"text-lg w-2/3 text-gray-700"} />
-        
-
+        <AnimatedTitle title="Our Courses" styles={"text-4xl font-semibold "} />
+        <AnimatedTitle
+          title="Lorem ipsum dolor sit amet consectetur adipisicing elit. Temporibus quod enim similique vel, incidunt odio."
+          styles={"text-lg w-2/3 text-gray-700"}
+        />
       </div>
       <AnimatedComponent id="course">
         <div className="relative w-full">
@@ -54,10 +58,15 @@ function Course() {
                   "Learn web development basics. Create websites from scratch and build a solid foundation in web design."
                 }
               />
-              <ImageOnlyCard
+              {/* <ImageOnlyCard
                 images={[
                   "https://res.cloudinary.com/dr2ipw7nb/image/upload/v1726352882/CYF_0288_quqwvp.jpg",
                 ]}
+                className="w-1/2 p-5"
+              />
+               */}
+              <ImageOnlyCard
+                images={["/images/Frame.png"]}
                 className="w-1/2 p-5"
               />
             </SwiperSlide>
@@ -78,10 +87,14 @@ function Course() {
                   "Explore digital marketing strategies. Perfect for beginners to learn effective online marketing techniques."
                 }
               />
-              <ImageOnlyCard
+              {/* <ImageOnlyCard
                 images={[
                   "https://res.cloudinary.com/dr2ipw7nb/image/upload/v1726352896/CYF_0341_umqchd.jpg",
                 ]}
+                className="w-1/2 p-5"
+              /> */}
+               <ImageOnlyCard
+                images={["/images/Frame.png"]}
                 className="w-1/2 p-5"
               />
             </SwiperSlide>
@@ -102,10 +115,14 @@ function Course() {
                   "Understand the fundamentals of data analytics and gain key insights into data science."
                 }
               />
-              <ImageOnlyCard
+              {/* <ImageOnlyCard
                 images={[
                   "https://res.cloudinary.com/dr2ipw7nb/image/upload/v1726352891/CYF_0324_i0vmc4.jpg",
                 ]}
+                className="w-1/2 p-5"
+              /> */}
+               <ImageOnlyCard
+                images={["/images/Frame.png"]}
                 className="w-1/2 p-5"
               />
             </SwiperSlide>
@@ -126,10 +143,14 @@ function Course() {
                   "Explore basic concepts of cyber security to safeguard your digital presence."
                 }
               />
-              <ImageOnlyCard
+              {/* <ImageOnlyCard
                 images={[
                   "https://res.cloudinary.com/dr2ipw7nb/image/upload/v1726352886/CYF_0358_wuan33.jpg",
                 ]}
+                className="w-1/2 p-5"
+              /> */}
+               <ImageOnlyCard
+                images={["/images/Frame.png"]}
                 className="w-1/2 p-5"
               />
             </SwiperSlide>
